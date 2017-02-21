@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B12A04C44E1581CB76BD37A5E05AC79AA16D9DE7",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73CB17373D3BBC4B96862C9ADFDE5526F41C5765",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "B12A04C44E1581CB76BD37A5E05AC79AA16D9DE7" : 9223372036854775807,
-    "E641F668435396CCBADA50154886BCFDE2EE4195" : 9223372036854775807
+    "E641F668435396CCBADA50154886BCFDE2EE4195" : 9223372036854775807,
+    "73CB17373D3BBC4B96862C9ADFDE5526F41C5765" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "27F42EB0-5AEE-4152-8558-5D75A040C811",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "B12A04C44E1581CB76BD37A5E05AC79AA16D9DE7" : "OnTheMap\/",
-    "E641F668435396CCBADA50154886BCFDE2EE4195" : ""
+    "E641F668435396CCBADA50154886BCFDE2EE4195" : "",
+    "73CB17373D3BBC4B96862C9ADFDE5526F41C5765" : "ontheMap\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "OnTheMap",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/asobolevsky\/OnTheMap.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B12A04C44E1581CB76BD37A5E05AC79AA16D9DE7"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73CB17373D3BBC4B96862C9ADFDE5526F41C5765"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Baskarant\/Udacity.git",
