@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73CB17373D3BBC4B96862C9ADFDE5526F41C5765",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E641F668435396CCBADA50154886BCFDE2EE4195" : 9223372036854775807,
+    "73CB17373D3BBC4B96862C9ADFDE5526F41C5765" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6436ACFF-4ED3-45F9-BA67-106A5BDDFDE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E641F668435396CCBADA50154886BCFDE2EE4195" : "..",
+    "73CB17373D3BBC4B96862C9ADFDE5526F41C5765" : "ontheMap\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OnTheMap",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OnTheMap.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Baskarant\/ontheMap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73CB17373D3BBC4B96862C9ADFDE5526F41C5765"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Baskarant\/Udacity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E641F668435396CCBADA50154886BCFDE2EE4195"
+    }
+  ]
+}

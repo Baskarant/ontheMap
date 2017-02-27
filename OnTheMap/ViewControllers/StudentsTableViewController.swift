@@ -14,7 +14,6 @@ class StudentsTableViewController: UITableViewController {
     // MARK: - Life Cycle
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-       // locations = (UIApplication.shared.delegate as! AppDelegate).locations
         locations = StudentLocationModel.sharedInstance().locations
         tableView.reloadData()
     }
@@ -28,7 +27,7 @@ class StudentsTableViewController: UITableViewController {
     
     // MARK: - Actions
     @IBAction func logoutButton_Clicked(_ sender: Any) {
-        self.present(LoginViewController.newInstanceFromStoryboard(), animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
         logout()
     }
     
@@ -45,12 +44,9 @@ class StudentsTableViewController: UITableViewController {
     func getStudentsLocation() {
         
         LocationService.sharedInstance().getStudentsLocation(onSuccess: { (studentsLocation) in
-            
-           // (UIApplication.shared.delegate as! AppDelegate).locations = []
-            StudentLocationModel.sharedInstance().locations = []
+                StudentLocationModel.sharedInstance().locations = []
             if studentsLocation.count > 0 {
                 StudentLocationModel.sharedInstance().locations = studentsLocation
-                //(UIApplication.shared.delegate as! AppDelegate).locations = studentsLocation
                 self.locations = studentsLocation
             } else {
                 self.locations = []

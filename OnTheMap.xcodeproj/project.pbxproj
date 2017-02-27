@@ -20,7 +20,6 @@
 		CF0DB88A1E538B6A0040759C /* SearchLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB8891E538B6A0040759C /* SearchLocationViewController.swift */; };
 		CF0DB88C1E538B980040759C /* ShowLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0DB88B1E538B980040759C /* ShowLocationViewController.swift */; };
 		CF3DB6ED1E45158A008DF397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DB6E21E45158A008DF397 /* AppDelegate.swift */; };
-		CF3DB6EE1E45158A008DF397 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF3DB6E31E45158A008DF397 /* Info.plist */; };
 		CF3DB6EF1E45158A008DF397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3DB6E61E45158A008DF397 /* Assets.xcassets */; };
 		CF3DB6F01E45158A008DF397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DB6E71E45158A008DF397 /* LaunchScreen.storyboard */; };
 		CF3DB6F11E45158A008DF397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DB6E91E45158A008DF397 /* Main.storyboard */; };
@@ -246,7 +245,6 @@
 			files = (
 				CF3DB6F01E45158A008DF397 /* LaunchScreen.storyboard in Resources */,
 				CF3DB6EF1E45158A008DF397 /* Assets.xcassets in Resources */,
-				CF3DB6EE1E45158A008DF397 /* Info.plist in Resources */,
 				CF3DB6F11E45158A008DF397 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

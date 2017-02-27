@@ -23,10 +23,6 @@ class MapViewController: UIViewController {
         if(StudentLocationModel.sharedInstance().locations).count > 0 {
             addAnnotations(locations: StudentLocationModel.sharedInstance().locations)
         }
-        
-//        if (UIApplication.shared.delegate as! AppDelegate).locations.count > 0{
-//            addAnnotations(locations: (UIApplication.shared.delegate as! AppDelegate).locations)
-//        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -62,12 +58,9 @@ class MapViewController: UIViewController {
     func getStudentsLocation() {
         
         LocationService.sharedInstance().getStudentsLocation(onSuccess: { (studentsLocation) in
-            
-           // (UIApplication.shared.delegate as! AppDelegate).locations = []
             StudentLocationModel.sharedInstance().locations = []
             if studentsLocation.count > 0 {
                 StudentLocationModel.sharedInstance().locations = studentsLocation
-                //(UIApplication.shared.delegate as! AppDelegate).locations = studentsLocation
                 DispatchQueue.main.async {
                     self.addAnnotations(locations: studentsLocation)
                 }
