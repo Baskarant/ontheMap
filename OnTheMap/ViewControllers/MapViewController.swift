@@ -39,7 +39,7 @@ class MapViewController: UIViewController {
     
     // MARK: - Actions
     @IBAction func logoutButton_Clicked(_ sender: Any) {
-        self.present(LoginViewController.newInstanceFromStoryboard(), animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
         logout()
     }
     
