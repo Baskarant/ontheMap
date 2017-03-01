@@ -49,7 +49,7 @@ class StudentsTableViewController: UITableViewController {
                 StudentLocationModel.sharedInstance().locations = studentsLocation
                 self.locations = studentsLocation
             } else {
-                self.locations = []
+                StudentLocationModel.sharedInstance().locations = []
             }
             
         }, onFailure: { (error) in
